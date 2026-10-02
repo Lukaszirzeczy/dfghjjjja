@@ -17,3 +17,51 @@ body {
 }
 
 /* TODO: stylowanie karty gracza */
+.player-card {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 3px solid var(--color-accent);
+  background-color: var(--color-bg)
+}
+
+.card-header {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--color-accent);
+  text-align: center;
+}
+
+.card-section {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.card-footer {
+  padding: 10px;
+  margin-top: 15px;
+  border-top: 2px solid var(--color-accent);
+  text-align: center;
+  font-size: 0.85em;
+}
+
+.highlight {
+  color: var(--color-highlight);
+  font-weight: bold;
+}
+
+.card-section ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-section li{
+  padding: 5px 0;
+  border-bottom: 1px dashed var(--color-border);
+}
+
+.card-section li:last-child{
+  border-bottom: none;
+}
